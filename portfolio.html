@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>About Me</h1>
+
+                
+                <!-- Profile Picture -->
+                <div class="profile-pic">
+                    <img src="C:\Users\user\Pictures\Camera Roll\dp.jpeg" alt="Your Name">
+                </div>
+                
+                <h1>
+                    <span id="typing-effect">Hi, I'm </span><span id="dynamic-name"></span>
+                </h1>
+                <p>Welcome to my portfolio! I'm a <span class="highlight">Computer Engineer</span>.</p>
+                <!-- Skills Section -->
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>Frontend:</strong> HTML, CSS,Java</li>
+                        <li><strong>Backend:</strong> MySQL</li>
+                        <li><strong>Tools:</strong> Git,VS Code</li>
+                        <li><strong>Soft Skills:</strong> Possitive attitude, Teamwork,Time-Management</li>
+                    </ul>
+                </div>
+                
+                <!-- Achievements -->
+                <div class="achievements">
+                    <h3>Certifications</h3>
+                    <ul>
+                        <li>Completion certificate of TCS ION Young professional</li>
+                        <li>Participation in National level event at PCCOE</li>
+                        
+                    </ul>
+                </div>
+                
+               
+                <!-- Call-to-Action -->
+                
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Hand Gesture based Mouse control</h3>
+                <p>It is an innovative input device that uses hand gestures to control a computer's cursor and perform mouse-like actions, eliminating the need for a traditional physical mouse. This system leverages camera of the device to track the user's hand movements and interpret gestures as commands.</p>
+            </div>
+            <div class="project">
+                <h3>Online restaurant System</h3>
+                <p>It is the website that perform and control the specific tasks like display menu card to customers with price.It confirms the order and at last shows the total bill of services taken by cusomers.It saves the time of customers who need to wait from giving the order until arriving the order.</p>
+            </div>
+            <div class="project">
+                <h3>Quote Of The Day</h3>
+                <p>The website displays beautiful and meaningful quotes with its author whenever you refresh it. </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <p class="cta">
+             <a href="#contact">get in touch</a>!
+            </p>
+        
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 [Samruddhi]. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
